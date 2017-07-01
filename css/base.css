@@ -1,0 +1,73 @@
+html, body{
+  height: 100%;
+  background-color: #FFFFF7;
+}
+
+a{
+  color: #000;
+}
+
+aside{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #374047;
+  color: white;
+}
+
+aside .container{
+  height: 100%;
+}
+
+.brand span{
+  position: relative;
+  left: 50%;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+#cabecalho{
+  position: relative;
+  top: 1em;
+}
+
+#dash-conteudo{
+  position: absolute;
+  left: 27%;
+  width: 71%;
+  height: auto;
+  top: 12em;
+}
+
+#btn-opcoes{
+  position: relative;
+  top: 6em;
+}
+
+.opcoes{
+  width: 48%;
+  padding: 4em;
+  margin: 0.2em;
+}
+
+.text-op .material-icons{/*Os 4 Botões da Esquerda*/
+  font-size: 6.5em;
+}
+
+.col-md-4 .opcoes {/*Estrutura do Botão Maior*/
+  width: 100%;
+  padding: 10em 0em;
+}
+
+.col-md-4 .opcoes .a .material-icons{/*Botão Maior da Direita*/
+  font-size: 10em;
+  text-align: center;
+}
+
+.invisivel{
+  display: none;
+}
+
+.visivel{
+  display: block;
+}

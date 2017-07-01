@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript">
+
+function(req, res, next) { res.header('Access-Control-Allow-Origin', "*"); res.header('Access-Control-Allow-Methods','GET,PUT,POST,DELETE'); res.header('Access-Control-Allow-Headers', 'Content-Type'); next();
+})
+    </script>
+
+
+    <style type="text/css"> #conteudo { width: 400px; height: 300px;} </style>
+</head>
+<body>
+     <div id="sidebar">
+        <ul>
+            <li><a onclick="carregar('https://www.w3schools.com/jsref/met_win_settimeout.asp')" href="#">Home</a></li>
+            <li><a onclick="carregar('explore.html')" href="#">Explore</a></li>
+            <li><a onclick="carregar('users.html')" href="#">Users</a></li>
+            <li><a onclick="carregar('signOut.html')" href="#">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="conteudo"></div>
+</body>
+<script>
+    function carregar(pagina){
+        $("#conteudo").load(pagina);
+    }
+</script>
+</html>
