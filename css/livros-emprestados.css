@@ -1,0 +1,23 @@
+.session-livros-emprestados{
+  position: relative;
+  top: 2em;
+}
+
+.glyphicon-chevron-left:before{
+  margin-right: 0.2em;
+}
+
+.pagination{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#paginator{
+  text-align: center;
+  display: inline-block;
+  margin-left: 35%;
+}
+
+#btn-back{
+  display: inline-block;
+}
